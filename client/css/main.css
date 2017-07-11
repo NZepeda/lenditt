@@ -423,13 +423,13 @@ hr.line {
 }
 
 .fa-envelope-o {
-  color: #4ec3cd;
+  color: #36454f;
   font-size: 22px;
   display: block;
   padding-top: 15px;
   width: 60px;
   height: 60px;
-  border: 2px solid #4ec3cd;
+  border: 2px solid #36454f;
   -moz-border-radius: 30px;
   -o-border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -463,7 +463,7 @@ footer {
 
 
 #pricing {
-  background: #36454f ;
+  background: #36454f;
 }
 
 .pricing-container {
