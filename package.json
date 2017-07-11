@@ -4,8 +4,17 @@
   "description": "Landing page for lenditt",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nestor Zepeda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+   "engines": {
+    "node": "6.11.0",
+    "npm": "2.14.12"
+  }
 }
