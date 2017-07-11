@@ -127,12 +127,12 @@ a:hover, a:focus {
 }
 
 .btn-primary {
-  background-color:#70cbce;
+  background-color:#36454f;
   color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #8be2e5;
+  background-color: #36454f;
   color: #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -234,7 +234,7 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: #70cbce;
+    background: #36454f;
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
@@ -265,7 +265,7 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #4ec3cd;
+    border-color: #36454f;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -393,6 +393,11 @@ hr.line {
 	color: #70cbce
 }
 
+.charcoal{
+  border-color: #36454f;
+  color: #36454f;
+}
+
 .yellow {
 	border-color: #fdc05d;
 	color: #fdc05d;
@@ -458,7 +463,7 @@ footer {
 
 
 #pricing {
-  background: #70cbce;
+  background: #36454f ;
 }
 
 .pricing-container {
