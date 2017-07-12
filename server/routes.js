@@ -8,6 +8,10 @@ module.exports = function(app){
         res.sendFile(path.resolve(__dirname + '/../client/index.html'));
     });
 
+    // *** API Endpoints *** ///
+    var emailCollecterController = require('./controllers/postEmailToDbController');
+    app.get('/saveEmail', emailCollecterController.postUserEmailToDb);
+
     // Static mapping redirects
     app.use('/js', express.static(__dirname + '/../client/js'));
     app.use('/css', express.static(__dirname + '/../client/css'));
