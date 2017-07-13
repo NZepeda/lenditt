@@ -4,11 +4,11 @@ function emailFormButtonPressed(){
     if(userEmail !== ""){
 
         if(!inputIsValidEmail(userEmail)){
-            console.log('Error will fire!');
             $.Zebra_Dialog('Please enter a valid email address', {
                 type: 'error',
                 title: 'Oops!'
             });
+            
         }
         else{
             $.ajax({
@@ -19,6 +19,9 @@ function emailFormButtonPressed(){
                         type: 'confirmation',
                         title: 'Thank You!'
                     });
+
+                    // Set the field to blank
+                    $('#userEmail').val("");
                 },
                 error: function(error){
                         $.Zebra_Dialog('Looks like you\'ve already signed up! We\'ll keep you updated with any news.', {
