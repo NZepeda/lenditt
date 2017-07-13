@@ -1,13 +1,16 @@
 function emailFormButtonPressed(){
-        var userEmail = $('#userEmail').val();
+    var userEmail = $('#userEmail').val();
+    
+    if(userEmail !== ""){
 
-        if(userEmail !== ""){
-            // $.get("http://"+window.location.hostname +"/saveEmail?email=" +userEmail, function(data, status){
-            //     // console.log(data);
-            //     //
-            //      console.log(status);
-            // });
-
+        if(!inputIsValidEmail(userEmail)){
+            console.log('Error will fire!');
+            $.Zebra_Dialog('Please enter a valid email address', {
+                type: 'error',
+                title: 'Oops!'
+            });
+        }
+        else{
             $.ajax({
                 type: "GET",
                 url: "http://"+ window.location.hostname + "/saveEmail?email=" + userEmail,
@@ -18,11 +21,19 @@ function emailFormButtonPressed(){
                     });
                 },
                 error: function(error){
-                     $.Zebra_Dialog('Looks like you\'ve already signed up! We\'ll keep you updated with any news.', {
-                        type: 'error',
-                        title: 'Oops!'
-                    });
+                        $.Zebra_Dialog('Looks like you\'ve already signed up! We\'ll keep you updated with any news.', {
+                            type: 'error',
+                            title: 'Oops!'
+                        });
                 }
-            })
+            });
         }
+        
+    }
+}
+
+function inputIsValidEmail(input){
+ var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+ return re.test(input);
 }
