@@ -7,8 +7,7 @@ function emailFormButtonPressed(){
             $.Zebra_Dialog('Please enter a valid email address', {
                 type: 'error',
                 title: 'Oops!'
-            });
-            
+            });   
         }
         else{
             $.ajax({
