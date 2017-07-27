@@ -127,12 +127,12 @@ a:hover, a:focus {
 }
 
 .btn-primary {
-  background-color:#36454f;
+  background-color:#67AC44;
   color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #36454f;
+  background-color: #67AC44;
   color: #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -234,12 +234,12 @@ a:hover, a:focus {
 
 .navbar {
     border: 0px solid rgba(0, 0, 0, 0);
-    background: #36454f;
+    background: #FFFFFF;
     margin: auto;
     min-height: 60px;
     padding-top: 8px;
     position: fixed;
-    top: -60px;
+    top: -85px;
     transition: top 0.4s ease 0s;
 }
 
@@ -265,7 +265,7 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #36454f;
+    border-color: #67AC44;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -273,7 +273,7 @@ a:hover, a:focus {
 }
 
 .logo img {
-	/*margin-top: 6px;*/
+	margin-bottom: 10px;
 }
 
 
@@ -370,7 +370,7 @@ header {
 
 
 #be-the-first {
-  background: url(../img/lenditt_background.jpg) #231f20 no-repeat center center fixed;
+  background: url(../img/lenditt_background.png) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -394,8 +394,8 @@ hr.line {
 }
 
 .charcoal{
-  border-color: #36454f;
-  color: #36454f;
+  border-color: #67AC44;
+  color: #67AC44;
 }
 
 .yellow {
@@ -423,13 +423,13 @@ hr.line {
 }
 
 .fa-envelope-o {
-  color: #36454f;
+  color: #67AC44;
   font-size: 22px;
   display: block;
   padding-top: 15px;
   width: 60px;
   height: 60px;
-  border: 2px solid #36454f;
+  border: 2px solid #67AC44;
   -moz-border-radius: 30px;
   -o-border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -463,7 +463,7 @@ footer {
 
 
 #pricing {
-  background: #36454f;
+  background: #67AC44;
 }
 
 .pricing-container {
