@@ -30,17 +30,25 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 40px;
-  etter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   color: #ffffff;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 22spx;
   line-height: 30px;
   letter-spacing: 0px;
   color: #231f20;
   font-weight: 700;
+}
+
+h4 {
+  font-size: 22spx;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #231f20;
+  font-weight: 1000;
 }
 
 .lead {
@@ -282,7 +290,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/travel-bg.jpg) no-repeat center center;
+  background: url(../img/Bicycle2-bg.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
