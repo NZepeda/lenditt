@@ -14,8 +14,7 @@ var pass = process.env.DB_PASSWORD;
 
 var mongoConnection = buildMongoConnection(host, database, user, pass);
 var dbOptions = {
-    user: user,
-    pass: pass
+    useMongoClient: true
 }
 
 mongoose.connect(mongoConnection, dbOptions);

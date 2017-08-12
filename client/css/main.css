@@ -9,6 +9,16 @@
 
 
 /* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Ave-Fedan';
+  src: url('../fonts/AveFedan.ttf');
+}
+
+
+/* ==========================================================================
    Global styles
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
@@ -299,6 +309,10 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+
+.header-title{
+  font-family: 'Ave-Fedan', sans-serif;
 }
 
 .header-info {
