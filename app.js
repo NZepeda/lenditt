@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var env = require('dotenv').config();
 var app = express();
 var bodyParser = require('body-parser');
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 3000;
 
 // Database credentials
 var host = process.env.DB_HOST;
