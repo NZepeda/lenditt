@@ -12,7 +12,7 @@ exports.postUserEmailToDb = function(req, res){
         }
         else{
             res.status(200).send(data);
-            postToSlack("New user email added: " + req.query.email);
+            //postToSlack("New user email added: " + req.query.email);
         }
     });
 }
