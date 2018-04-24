@@ -22,6 +22,15 @@ mongoose.connect(mongoConnection, dbOptions);
 require('./server/models/userInterestEmail');
 require('./server/routes.js')(app);
 
+if(process.env.NODE_ENV == 'production'){
+    app.use(express.static('client/build'));
+  
+    const path = require('path');
+    app.get('*', (req, res) => {
+      res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    });
+}
+
 // Start the server
 app.listen(port, function(req, res){
     console.log('I\'m listening on port ' + port);

@@ -4,10 +4,6 @@ var bodyParser = require('body-parser');
 
 module.exports = function(app){
 
-    app.get('/', function(req, res){
-        res.sendFile(path.resolve(__dirname + '/../client/index.html'));
-    });
-
     // *** API Endpoints *** ///
     var emailCollecterController = require('./controllers/postEmailToDbController');
     app.get('/saveEmail', emailCollecterController.postUserEmailToDb);
