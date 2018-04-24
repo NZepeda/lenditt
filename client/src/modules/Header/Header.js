@@ -1,13 +1,13 @@
-import React, {Component} from 'react';
-import {Rol, Col} from 'react-bootstrap';
+import React from 'react';
 import logo from '../../assets/images/lendittlogo.png';
+
 const Header = () => {
     return (
         <header>
             <div className="container">        
                 <div className="row header-info">
                     <div className="col-sm-10 col-sm-offset-1 text-center">
-                        <img className="page-logo" src={logo}/>
+                        <img className="page-logo" src={logo} alt="Page Background"/>
                         <h1 className="wow fadeIn header-title">Lenditt</h1>
                         <br />
                         <p className="lead wow fadeIn" data-wow-delay="0.5s">Rent. Earn. Explore.</p>

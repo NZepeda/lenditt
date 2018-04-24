@@ -442,6 +442,10 @@ hr.line {
   background: #f2f2f2;
 }
 
+.envelope{
+  color: #67AC44;
+}
+
 .fa-envelope-o {
   color: #67AC44;
   font-size: 22px;

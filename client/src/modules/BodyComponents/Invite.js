@@ -1,24 +1,25 @@
-import React, {Component} from 'react';
+import React from 'react';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 const Invite = () => {
     return (
-        <section id="invite" class="pad-lg light-gray-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2 text-center">
-                        <i class="fa fa-envelope-o margin-40"></i>
-                        <h2 class="black">Sign Up!</h2>
+        <section id="invite" className="pad-lg light-gray-bg">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-8 col-sm-offset-2 text-center">
+                        <FontAwesomeIcon icon="envelope" className="margin-40 envelope" size="3x"/>
+                        <h2 className="black">Sign Up!</h2>
                         <br />
-                        <p class="black">Sign up and we'll notify you when we go live!</p>
+                        <p className="black">Sign up and we'll notify you when we go live!</p>
                         <br />
                         
-                        <div class="row">
-                            <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                        <div className="row">
+                            <div className="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                                 <form role="form">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="userEmail" placeholder="Enter Email"/>
+                                <div className="form-group">
+                                    <input type="email" className="form-control" id="userEmail" placeholder="Enter Email"/>
                                 </div>
-                                <button type="button" onclick="emailFormButtonPressed()" class="btn btn-primary btn-lg">Sign Up</button>
+                                <button type="button" onclick="emailFormButtonPressed()" className="btn btn-primary btn-lg">Sign Up</button>
                                 </form>
                             </div>
                         </div>

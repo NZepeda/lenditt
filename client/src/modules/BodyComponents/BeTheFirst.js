@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import iphone from '../../assets/images/iphone.png';
 
 const BeTheFirst = () => {
@@ -13,7 +13,7 @@ const BeTheFirst = () => {
                 </div>
             
                 <div className="iphone wow fadeInUp" data-wow-delay="1s">
-                    <img src={iphone}/>
+                    <img src={iphone} alt="iPhone" />
                 </div>
             </div>
       </section>
