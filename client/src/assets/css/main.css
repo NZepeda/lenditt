@@ -12,10 +12,10 @@
    Fonts
    ========================================================================== */
 
-@font-face {
+/* @font-face {
   font-family: 'Ave-Fedan';
   src: url('../fonts/AveFedan.ttf');
-}
+} */
 
 
 /* ==========================================================================
@@ -300,7 +300,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/bicycle2-bg.jpg) no-repeat center center;
+  background: url(../images/bicycle2-bg.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -390,7 +390,7 @@ header {
 }
 
 #be-the-first {
-  background: url(../img/lenditt_background.png) #231f20 no-repeat center center fixed;
+  background: url(../images/lenditt_background.png) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
