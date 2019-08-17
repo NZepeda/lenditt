@@ -1,0 +1,943 @@
+﻿.Desktop-HD {
+  overflow: hidden;
+  position: relative;
+  width: calc(100% - 0px);
+  margin: 0px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Header_4 {
+  display: flex;
+  flex-direction: row;
+  padding: 27px 0px 18px 551px;
+  position: relative;
+  width: calc(100% - 4.440892098500626e-16px);
+  height: 65px;
+  margin: 0px 1px 0px -1px;
+  background: rgba(153,  212, 47, 1);
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.Desktop-HD .Lenditt_1-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  left: 30px;
+  right: 1284px;
+  height: 60px;
+  top: calc(0% - 0px);
+  font-family: 'Sign Painter';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 42px;
+  line-height: 70px;
+  letter-spacing: -0.26px;
+  color: rgba(255,  255, 255, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .HOME-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: 11.24859393%;
+  height: 20px;
+  margin: auto 0px auto 0px;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .ABOUT-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: 11.24859393%;
+  height: 20px;
+  margin: auto 0px auto 20px;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .CONTACT-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: 11.36107987%;
+  height: 20px;
+  margin: auto 0px auto 20px;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .SIGN-UP_1-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: 11.24859393%;
+  height: 20px;
+  margin: auto 0px auto 313px;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: rgba(255,  255, 255, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .LOG-IN-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: 11.24859393%;
+  height: 20px;
+  margin: auto 25px auto 10px;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: rgba(255,  255, 255, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .LendittLogo {
+  position: relative;
+  width: calc(100% - 1038px);
+  height: 65px;
+  margin: 50px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Lenditt-logo-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 65px;
+  top: 0%;
+  font-family: 'Sign Painter';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: -0.44px;
+  color: rgba(163,  218, 53, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .RED {
+  position: relative;
+  width: calc(100% - 795px);
+  height: 27px;
+  margin: 21.4px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .RENT-EARN-DISCOVER-inner {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 27px;
+  margin: 0px auto 0px auto;
+  opacity: 0.8015950520833334;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 24px;
+  letter-spacing: 4px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .NewGroup-1 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: calc(100% - 198.9999999999991px);
+  height: 423px;
+  margin: 88.6px auto 0px auto;
+  background-color: transparent;
+}
+
+.Desktop-HD .Devices {
+  position: relative;
+  width: 70.10475423%;
+  height: 423px;
+  margin: auto 0px auto 0px;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .LendittIpadProMock3 {
+  display: block;
+  box-shadow: -8px 10px 10px rgba(0,  0, 0, 0.5);
+  position: relative;
+  width: calc(100% - 554px);
+  height: 397px;
+  margin: 0px 554px 0px 0px;
+}
+
+.Desktop-HD .LendittMacBookAirMockupFinal {
+  display: block;
+  box-shadow: -6px 10px 7px rgba(0,  0, 0, 0.5);
+  position: relative;
+  width: calc(100% - 161px);
+  height: 380px;
+  margin: -360px 0px 0px 161px;
+}
+
+.Desktop-HD .LendittListingsMock_1 {
+  display: block;
+  box-shadow: -4px 8px 9px rgba(0,  0, 0, 0.5);
+  position: relative;
+  width: calc(100% - 753px);
+  height: 242px;
+  margin: -236px 567px 0px 186px;
+}
+
+.Desktop-HD .IntroText {
+  position: relative;
+  width: 27.80016116%;
+  height: 280px;
+  margin: 69px 0px 74px 26px;
+  display: block;
+  background-color: transparent;
+  opacity: 0.9044828869047619;
+}
+
+.Desktop-HD .Lenditt-is-a-peerto-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 280px;
+  margin: 0px auto 0px auto;
+  font-family: 'Sign Painter';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .Lenditt-is-a-peerto-2 {
+  font-family: Athelas;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 4.44px;
+}
+
+.Desktop-HD .Lenditt-is-a-peerto-3 {
+  font-family: Athelas;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.Desktop-HD .RentSection {
+  padding: 60px 108px 0px 100px;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 837px;
+  margin: 97px 0px 0px 0px;
+  display: block;
+  background: rgba(163,  218, 53, 1);
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.Desktop-HD .RentTitle {
+  position: relative;
+  width: calc(100% - 1077px);
+  height: 54px;
+  margin: 0px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .RENT-inner {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 54px;
+  margin: 0px auto 0px auto;
+  font-family: 'Sign Painter';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 60px;
+  letter-spacing: 3.75px;
+  color: rgba(255,  255, 255, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .NewGroup-1_1 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 542px;
+  margin: 100px auto 81px auto;
+  background-color: transparent;
+}
+
+.Desktop-HD .IphoneMocksRent {
+  position: relative;
+  width: 54.62662338%;
+  height: 529px;
+  margin: 0px 0px 13px 0px;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .LendittBookedMock {
+  display: block;
+  box-shadow: -6px 10px 8px rgba(0,  0, 0, 0.5);
+  position: relative;
+  width: calc(100% - 428px);
+  height: 506px;
+  margin: 0px 0px 0px 428px;
+}
+
+.Desktop-HD .LendittCalendarMock {
+  display: block;
+  box-shadow: -6px 10px 8px rgba(0,  0, 0, 0.5);
+  position: relative;
+  width: calc(100% - 428px);
+  height: 506px;
+  margin: -505px 428px 0px 0px;
+}
+
+.Desktop-HD .LendittListingsMock {
+  display: block;
+  box-shadow: -6px 10px 8px rgba(0,  0, 0, 0.5);
+  position: relative;
+  width: calc(100% - 428px);
+  height: 506px;
+  margin: -484px auto 0px auto;
+}
+
+.Desktop-HD .NewGroup-1_2 {
+  position: relative;
+  width: 35.79545455%;
+  height: 467px;
+  margin: 75px 0px 0px 118px;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Header {
+  position: relative;
+  width: calc(100% - 58px);
+  height: 60px;
+  margin: 0px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Header_1-inner {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 60px;
+  margin: 0px auto 0px auto;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.56px;
+  color: rgba(255,  255, 255, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .Header_1-2 {
+  color: rgba(0,  0, 0, 1);
+}
+
+.Desktop-HD .Header_1-4 {
+  font-family: 'Sign Painter';
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 0.63px;
+  color: rgba(0,  0, 0, 1);
+}
+
+.Desktop-HD .Header_1-5 {
+  font-size: 34px;
+  letter-spacing: 0.63px;
+  color: rgba(0,  0, 0, 1);
+}
+
+.Desktop-HD .Description {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 379px;
+  margin: 28px auto 0px auto;
+  display: block;
+  background-color: transparent;
+  opacity: 0.7954566592261905;
+}
+
+.Desktop-HD .Description_1-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 379px;
+  margin: 0px auto 0px auto;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.52px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .EarnTitle {
+  position: relative;
+  width: calc(100% - 1279px);
+  height: 54px;
+  margin: 60px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .EARN-inner {
+  position: relative;
+  width: calc(100% - -1.1368683772161603e-13px);
+  height: 54px;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Sign Painter';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 60px;
+  letter-spacing: 3.75px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .NewGroup-2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: calc(100% - 198.9999999999991px);
+  height: 495px;
+  margin: 110px auto 0px auto;
+  background-color: transparent;
+}
+
+.Desktop-HD .Devices_1 {
+  padding: 83.6px 0.2px 0px 0px;
+  position: relative;
+  width: 58.82352941%;
+  height: 495px;
+  margin: auto 0px auto 0px;
+  display: block;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.Desktop-HD .LendittIpadProMock {
+  display: block;
+  box-shadow: -6px 9px 10px rgba(0,  0, 0, 0.5);
+  position: relative;
+  width: calc(100% - 234.69826676714393px);
+  height: 393.8px;
+  margin: 0px 234.7px 0px 0px;
+}
+
+.Desktop-HD .Group {
+  display: flex;
+  flex-direction: column;
+  padding: 8.7px 0px 0px 0px;
+  position: relative;
+  width: calc(100% - 336.1283318623123px);
+  height: 495px;
+  margin: -477.4px 0px 0px 336.1px;
+  background-color: transparent;
+  box-shadow: -6px 9px 10px rgba(0,  0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+.Desktop-HD .Rectangle {
+  position: relative;
+  width: calc(100% - 40.516975073846865px);
+  height: 477px;
+  margin: 0px 11.9px 0px 28.6px;
+  display: block;
+  background: rgba(255,  255, 255, 1);
+  border-radius: 18px;
+}
+
+.Desktop-HD .LendittIpadProMock2 {
+  display: block;
+  position: relative;
+  width: calc(100% - 0.014871093086583187px);
+  height: 495px;
+  margin: -485.6px auto 0px auto;
+}
+
+.Desktop-HD .NewGroup-1_3 {
+  position: relative;
+  width: 31.02336825%;
+  height: 378.7px;
+  margin: auto 0px auto 126px;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Header_2 {
+  position: relative;
+  width: calc(100% - 16px);
+  height: 66px;
+  margin: 0px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Earn-with-Lenditt-by-inner {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 66px;
+  margin: 0px auto 0px auto;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 30px;
+  letter-spacing: 0.56px;
+  color: rgba(153,  212, 47, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .Description_2 {
+  padding: 0px 0px 0px 1.4px;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 247px;
+  margin: 65.7px auto 0px auto;
+  display: block;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.Desktop-HD .Not-only-can-you-ear-inner {
+  position: relative;
+  width: calc(100% - -1.4px);
+  height: 247px;
+  margin: 0px -1.4px 0px 0px;
+  opacity: 0.6988699776785714;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.52px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .DiscoverSection {
+  padding: 60px 100px 0px 100px;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 837px;
+  margin: 118px 0px 0px 0px;
+  display: block;
+  background: rgba(163,  218, 53, 1);
+  box-sizing: border-box;
+}
+
+.Desktop-HD .DiscoverTitle {
+  position: relative;
+  width: calc(100% - 937px);
+  height: 54px;
+  margin: 0px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .NewGroup-1_4 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 433px;
+  margin: 144px auto 146px auto;
+  background-color: transparent;
+}
+
+.Desktop-HD .Devices_2 {
+  position: relative;
+  width: 58.87096774%;
+  height: 433px;
+  margin: 0px 0px 0px 0px;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .LendittMacbookListingsMockup {
+  display: block;
+  position: relative;
+  width: calc(100% - 6.385008004521069px);
+  height: 420.3px;
+  margin: 0px 6.4px 0px 0px;
+}
+
+.Desktop-HD .LendittMapMock {
+  display: block;
+  box-shadow: -4px 6px 7px rgba(0,  0, 0, 0.5);
+  position: relative;
+  width: calc(100% - 579.779991838527px);
+  height: 309.1px;
+  margin: -296.8px 0px 0.4px 579.8px;
+}
+
+.Desktop-HD .DiscoverText {
+  padding: 0.8px 0px 0px 0px;
+  position: relative;
+  width: 33.46774194%;
+  height: 415px;
+  margin: 0px 0px 18px 95px;
+  display: block;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.Desktop-HD .Header_3 {
+  position: relative;
+  width: calc(100% - 93px);
+  height: 68px;
+  margin: 0px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Disover-and-explore-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 68px;
+  margin: 0px auto 0px auto;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 30px;
+  letter-spacing: 0.56px;
+  color: rgba(255,  255, 255, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .Disover-and-explore-2 {
+  font-weight: 400;
+  color: rgba(0,  0, 0, 1);
+}
+
+.Desktop-HD .Description_3 {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 326px;
+  margin: 20px auto 0.2px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Looking-to-go-campin-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  width: calc(100% - 0px);
+  height: 326px;
+  margin: 0px auto 0px auto;
+  opacity: 0.6988699776785714;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.52px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .SignUpSection {
+  position: relative;
+  width: calc(100% - 185px);
+  height: 618px;
+  margin: 60px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .SignUpTitle {
+  position: relative;
+  width: calc(100% - 910px);
+  height: 39px;
+  margin: 0px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .SIGN-UP-inner {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 39px;
+  margin: 0px auto 0px auto;
+  opacity: 0.8992280505952381;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-size: 35px;
+  letter-spacing: 2.19px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .LendittComingSoon {
+  padding: 75px 68px 0px 67px;
+  position: relative;
+  width: calc(100% - 970px);
+  height: 103px;
+  margin: 65px auto 0px auto;
+  display: block;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.Desktop-HD .Lenditt-inner {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 75px;
+  top: calc(0% - 0px);
+  font-family: 'Sign Painter';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: -0.5px;
+  color: rgba(163,  218, 53, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .Coming-soon-inner {
+  position: relative;
+  width: fit-content;
+  width: -moz-fit-content;
+  height: 28px;
+  margin: 0px auto 0px auto;
+  opacity: 0.7029389880952381;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 25px;
+  letter-spacing: 0.46px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre;
+}
+
+.Desktop-HD .LaunchText {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 56px;
+  margin: 70px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .As-we-prepare-to-lau-inner {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 56px;
+  margin: 0px auto 0px auto;
+  opacity: 0.69887;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 25px;
+  letter-spacing: 0.46px;
+  color: rgba(0,  0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .SignUpButton {
+  padding: 21px 103px 0px 103px;
+  position: relative;
+  width: calc(100% - 971px);
+  height: 70px;
+  margin: 80px auto 0px auto;
+  display: block;
+  background: rgba(163,  218, 53, 1);
+  box-sizing: border-box;
+  border-radius: 35px;
+}
+
+.Desktop-HD .Sign-up-inner {
+  position: relative;
+  width: calc(100% - 0px);
+  height: 26px;
+  margin: 0px auto 23px auto;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 23px;
+  letter-spacing: 0.43px;
+  color: rgba(255,  255, 255, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .ComingSoonText {
+  position: relative;
+  width: calc(100% - 378px);
+  height: 45px;
+  margin: 90px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Coming-soon-to-the-a-inner {
+  position: relative;
+  width: fit-content;
+  width: -moz-fit-content;
+  height: 45px;
+  margin: 0px auto 0px auto;
+  font-family: Athelas;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 40px;
+  letter-spacing: 0.74px;
+  color: rgba(153,  212, 47, 1);
+  text-align: center;
+  white-space: pre;
+}
+
+.Desktop-HD .NewGroup-3 {
+  padding: 29px 239px 0px 241px;
+  position: relative;
+  width: calc(100% - 4.440892098500626e-16px);
+  margin: 94px 1px 0px -1px;
+  display: block;
+  background: rgba(153,  212, 47, 1);
+  box-sizing: border-box;
+}
+
+.Desktop-HD .Footer {
+  position: relative;
+  width: calc(100% - 0px);
+  margin: 0px auto 0px auto;
+  display: block;
+  background-color: transparent;
+}
+
+.Desktop-HD .Content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: calc(100% - 0px);
+  margin: 0px auto 0px auto;
+  background-color: transparent;
+}
+
+.Desktop-HD .k-Lenditt-inner {
+  position: relative;
+  width: 12.5%;
+  height: 36px;
+  margin: auto 0px auto 0px;
+  opacity: 0.6047479538690477;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.57px;
+  color: rgba(60,  60, 60, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.Desktop-HD .help-inner {
+  position: relative;
+  width: 12.5%;
+  margin: auto 0px auto 0px;
+  opacity: 0.6047479538690477;
+  font-family: Athelas;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.57px;
+  color: rgba(60,  60, 60, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+

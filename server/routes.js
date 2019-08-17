@@ -1,18 +1,17 @@
-var express = require('express');
-var path = require('path');
-var bodyParser = require('body-parser');
+var express = require("express");
+var bodyParser = require("body-parser");
 
-module.exports = function(app){
+// !TODO : Fix this up once we have a final landing copy
+module.exports = function(app) {
+  // *** API Endpoints *** ///
+  var emailCollecterController = require("./controllers/postEmailToDbController");
+  app.get("/saveEmail", emailCollecterController.postUserEmailToDb);
 
-    // *** API Endpoints *** ///
-    var emailCollecterController = require('./controllers/postEmailToDbController');
-    app.get('/saveEmail', emailCollecterController.postUserEmailToDb);
-
-    // Static mapping redirects
-    app.use('/js', express.static(__dirname + '/../client/js'));
-    app.use('/css', express.static(__dirname + '/../client/css'));
-    app.use('/scripts', express.static(__dirname + '/../node_modules'));
-    app.use('/color', express.static(__dirname + '/../client/color'));
-    app.use('/img', express.static(__dirname + '/../client/img'));
-    app.use('/fonts', express.static(__dirname + '/../client/fonts'));
-}
+  // Static mapping redirects
+  app.use("/js", express.static(__dirname + "/../client/js"));
+  app.use("/css", express.static(__dirname + "/../landing/styles"));
+  app.use("/scripts", express.static(__dirname + "/../node_modules"));
+  app.use("/color", express.static(__dirname + "/../client/color"));
+  app.use("/img", express.static(__dirname + "/../client/img"));
+  app.use("/fonts", express.static(__dirname + "/../client/fonts"));
+};
