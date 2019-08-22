@@ -12,6 +12,6 @@ module.exports = function(app) {
   app.use("/css", express.static(__dirname + "/../landing/styles"));
   app.use("/scripts", express.static(__dirname + "/../node_modules"));
   app.use("/color", express.static(__dirname + "/../client/color"));
-  app.use("/img", express.static(__dirname + "/../client/img"));
-  app.use("/fonts", express.static(__dirname + "/../client/fonts"));
+  app.use("/img", express.static(__dirname + "/../landing/img"));
+  app.use("/fonts", express.static(__dirname + "/../landing/fonts"));
 };

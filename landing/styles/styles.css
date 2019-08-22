@@ -1,943 +1,4002 @@
-﻿.Desktop-HD {
-  overflow: hidden;
-  position: relative;
-  width: calc(100% - 0px);
-  margin: 0px auto 0px auto;
-  display: block;
-  background-color: transparent;
+﻿@import url('https://fonts.googleapis.com/css?family=Signika:300,400,700');
+
+@font-face {
+    font-family: "Signika-SemiBold";
+     src: url('../fonts/Signika-SemiBold.ttf') format("truetype");
+}
+                        
+.bp1-desktophd {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 4830px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-desktophd .bp1-footersymbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4790px;
+  height              : 40px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-footersymbol .bp1-footerbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-signupsection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 886px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-signupsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4114px;
+  align-items         : center;
+  height              : 582px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-signupsection .bp1-comingsoontext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 537px;
+  height              : 45px;
+  width               : 886px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-signupsection .bp1-comingsoontext .bp1-comingsoontothea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 887px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(153, 212, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.67px;
+  line-height         : 45.0px;
+}
+.bp1-desktophd .bp1-signupsection .bp1-launchtext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 219px;
+  height              : 81px;
+  width               : 855px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-signupsection .bp1-launchtext .bp1-aswepreparetolau {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 855px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 27.0px;
+}
+.bp1-desktophd .bp1-signupsection .bp1-comingsoon {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 170px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.85;
+}
+.bp1-desktophd .bp1-signupsection .bp1-comingsoon-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 81px;
+  align-items         : center;
+  height              : 31px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-signupsection .bp1-comingsoon .bp1-comingsoon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.46px;
+  line-height         : 31.0px;
+}
+.bp1-desktophd .bp1-signupsection .bp1-signupbutton {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 257px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-signupsection .bp1-signupbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 341px;
+  align-items         : center;
+  height              : 68px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-signupsection .bp1-signupbutton .bp1-rectangle {
+  background-color    : rgba(163, 218, 53, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-signupsection .bp1-signupbutton .bp1-signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 29.0px;
+}
+.bp1-desktophd .bp1-signupsection .bp1-lendittlogogreen {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 217px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-signupsection .bp1-lendittlogogreen-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 66px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-discovergreenbg {
+  background-color    : rgba(162, 217, 53, 1.0);
+  top                 : 3044px;
+  height              : 1020px;
+  width               : calc(100.00% + 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-discoversection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1283px;
+  margin-right        : -6px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 6px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-discoversection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3112px;
+  align-items         : center;
+  height              : 772px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1283px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 772px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 345px;
+  height              : 320px;
+  width               : 403px;
+  position            : absolute;
+  margin              : 0;
+  left                : 880px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-description .bp1-lookingtogocampin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 250px;
+  height              : 80px;
+  width               : 361px;
+  position            : absolute;
+  margin              : 0;
+  left                : 901px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-header .bp1-disoverandexplore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 363px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 37.0px;
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-header .bp1-disoverandexplore .bp1-span1 {
+  
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-header .bp1-disoverandexplore .bp1-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-header .bp1-disoverandexplore .bp1-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-header .bp1-disoverandexplore .bp1-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-discovertitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 361px;
+  margin-right        : 6px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -6px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-discovertitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-discovertitle .bp1-discover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-discoverdevices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 129px;
+  height              : 643px;
+  width               : 834px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-discoverdevices .bp1-macbookresults {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 643px;
+  width               : 834px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-discoversection .bp1-discoversection1 .bp1-discoverdevices .bp1-lendittmapmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 265px;
+  height              : 300px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-earnsection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1336px;
+  margin-right        : 13px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -13px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-earnsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2092px;
+  align-items         : center;
+  height              : 772px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-earnsection .bp1-description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 353px;
+  height              : 240px;
+  width               : 384px;
+  position            : absolute;
+  margin              : 0;
+  left                : 929px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-earnsection .bp1-description .bp1-notonlycanyouear {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp1-desktophd .bp1-earnsection .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 259px;
+  height              : 74px;
+  width               : 429px;
+  position            : absolute;
+  margin              : 0;
+  left                : 907px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-earnsection .bp1-header .bp1-earnwithlendittby {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 430px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(153, 212, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 37.0px;
+}
+.bp1-desktophd .bp1-earnsection .bp1-header .bp1-earnwithlendittby .bp1-span1 {
+  
+}
+.bp1-desktophd .bp1-earnsection .bp1-header .bp1-earnwithlendittby .bp1-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-desktophd .bp1-earnsection .bp1-header .bp1-earnwithlendittby .bp1-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp1-desktophd .bp1-earnsection .bp1-header .bp1-earnwithlendittby .bp1-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-desktophd .bp1-earnsection .bp1-earntitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 192px;
+  margin-right        : -13px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 13px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-earnsection .bp1-earntitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-earnsection .bp1-earntitle .bp1-earn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp1-desktophd .bp1-earnsection .bp1-earndevices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 129px;
+  height              : 643px;
+  width               : 858px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-earnsection .bp1-earndevices .bp1-ipadprobookings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 117px;
+  height              : 496px;
+  width               : 643px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-earnsection .bp1-earndevices .bp1-ipadpromessages {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 643px;
+  width               : 496px;
+  position            : absolute;
+  margin              : 0;
+  left                : 362px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentgreenbg {
+  background-color    : rgba(162, 217, 53, 1.0);
+  top                 : 972px;
+  height              : 1020px;
+  width               : calc(100.00% + 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentsection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1271px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1072px;
+  align-items         : center;
+  height              : 729px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 254px;
+  height              : 360px;
+  width               : 443px;
+  position            : absolute;
+  margin              : 0;
+  left                : 828px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext .bp1-description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : 280px;
+  width               : 443px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext .bp1-description .bp1-description1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 29px;
+  top                 : 0px;
+  height              : 60px;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext .bp1-header .bp1-header1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 386px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 30.0px;
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext .bp1-header .bp1-header1 .bp1-span1 {
+  
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext .bp1-header .bp1-header1 .bp1-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext .bp1-header .bp1-header1 .bp1-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-desktophd .bp1-rentsection .bp1-sectiontext .bp1-header .bp1-header1 .bp1-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp1-desktophd .bp1-rentsection .bp1-renttitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 191px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentsection .bp1-renttitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-rentsection .bp1-renttitle .bp1-rent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp1-desktophd .bp1-rentsection .bp1-rentdevices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 174px;
+  height              : 555px;
+  width               : 720px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentsection .bp1-rentdevices .bp1-lendittcalendarmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 536px;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentsection .bp1-rentdevices .bp1-lendittbookedmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 536px;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 460px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-rentsection .bp1-rentdevices .bp1-lendittlistingsmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 536px;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 230px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1325px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 100px;
+  align-items         : center;
+  height              : 739px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-introsection .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 399px;
+  margin-right        : 0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection .bp1-header-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 70px;
+  align-items         : center;
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-introsection .bp1-header .bp1-red {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 399px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection .bp1-header .bp1-red .bp1-rentearndiscover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 403px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 4.0px;
+  line-height         : 30.0px;
+}
+.bp1-desktophd .bp1-introsection .bp1-lendittlogogreen {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 170px;
+  margin-right        : 0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection .bp1-lendittlogogreen-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 52px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-desktophd .bp1-introsection .bp1-introtext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 257px;
+  height              : 240px;
+  width               : 348px;
+  position            : absolute;
+  margin              : 0;
+  left                : 977px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.bp1-desktophd .bp1-introsection .bp1-introtext .bp1-lendittisapeerto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.bp1-desktophd .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span1 {
+  
+}
+.bp1-desktophd .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span2 {
+  letter-spacing      : 2.67px;
+}
+.bp1-desktophd .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span3 {
+  letter-spacing      : 0.96px;
+}
+.bp1-desktophd .bp1-introsection .bp1-signupbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 517px;
+  height              : 68px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1023px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection .bp1-signupbutton .bp1-rectangle {
+  background-color    : rgba(163, 218, 53, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection .bp1-signupbutton .bp1-signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 29.0px;
+}
+.bp1-desktophd .bp1-introsection .bp1-introdevices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 149px;
+  height              : 590px;
+  width               : 963px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection .bp1-introdevices .bp1-ipadproresults {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 533px;
+  width               : 411px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection .bp1-introdevices .bp1-macbookhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 573px;
+  width               : 742px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-introsection .bp1-introdevices .bp1-lendittlistingsmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 242px;
+  height              : 270px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 227px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-headersymbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-headersymbol .bp1-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-headersymbol .bp1-headerbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : calc(100.00% + 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-headersymbol .bp1-signup {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25px;
+  top                 : 20px;
+  height              : 20px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-desktophd .bp1-headersymbol .bp1-signup .bp1-signup1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : 0.6px;
+  line-height         : 18.0px;
+}
+.bp1-desktophd .bp1-headersymbol .bp1-lendittlogowhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 28px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-tabletv1 {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 5120px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-tabletv1 .bp2-footersymbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5090px;
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-footersymbol .bp2-footerbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-signupsection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 623px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-signupsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4176px;
+  align-items         : center;
+  height              : 764px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-comingsoontext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 603px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-comingsoontext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 674px;
+  align-items         : center;
+  height              : 90px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-comingsoontext .bp2-comingsoontothea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 604px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(153, 212, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.67px;
+  line-height         : 45.0px;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-launchtext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 623px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-launchtext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 268px;
+  align-items         : center;
+  height              : 108px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-launchtext .bp2-aswepreparetolau {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 623px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 27.0px;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-comingsoon {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 170px;
+  margin-right        : 0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.85;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-comingsoon-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 81px;
+  align-items         : center;
+  height              : 31px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-comingsoon .bp2-comingsoon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.46px;
+  line-height         : 31.0px;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-signupbutton {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 257px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-signupbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 426px;
+  align-items         : center;
+  height              : 68px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-signupbutton .bp2-rectangle {
+  background-color    : rgba(163, 218, 53, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-signupbutton .bp2-signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 29.0px;
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-lendittlogogreen {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 217px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-signupsection .bp2-lendittlogogreen-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 66px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-discoverbg {
+  background-color    : rgba(162, 217, 53, 1.0);
+  top                 : 3072px;
+  height              : 1024px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-discoversection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 709px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-discoversection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3112px;
+  align-items         : center;
+  height              : 931px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-description1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 666px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-description1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 731px;
+  align-items         : center;
+  height              : 200px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-description1 .bp2-lookingtogocampin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 668px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-header1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 519px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-header1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 631px;
+  align-items         : center;
+  height              : 80px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-header1 .bp2-disoverandexplore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 521px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 37.0px;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-header1 .bp2-disoverandexplore .bp2-span1 {
+  
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-header1 .bp2-disoverandexplore .bp2-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-header1 .bp2-disoverandexplore .bp2-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-header1 .bp2-disoverandexplore .bp2-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-discovertitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 361px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-discovertitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-discovertitle .bp2-discover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-discoverdevices {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 709px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-discoverdevices-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 74px;
+  align-items         : center;
+  height              : 547px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-discoverdevices .bp2-macbookresults {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 547px;
+  width               : 709px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-discoversection .bp2-discoverdevices .bp2-lendittmapmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 226px;
+  height              : 255px;
+  width               : 124px;
+  position            : absolute;
+  margin              : 0;
+  left                : 554px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-description {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 627px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-description-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2846px;
+  align-items         : center;
+  height              : 160px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-description .bp2-notonlycanyouear {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 628px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp2-tabletv1 .bp2-header {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 506px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-header-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2752px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-header .bp2-earnwithlendittby {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 507px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(153, 212, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 37.0px;
+}
+.bp2-tabletv1 .bp2-header .bp2-earnwithlendittby .bp2-span1 {
+  
+}
+.bp2-tabletv1 .bp2-header .bp2-earnwithlendittby .bp2-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp2-tabletv1 .bp2-header .bp2-earnwithlendittby .bp2-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp2-tabletv1 .bp2-header .bp2-earnwithlendittby .bp2-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp2-tabletv1 .bp2-earntitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 192px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-earntitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2092px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-earntitle .bp2-earn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp2-tabletv1 .bp2-earndevices {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 682px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-earndevices-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2205px;
+  align-items         : center;
+  height              : 511px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-earndevices .bp2-ipadprobookings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 93px;
+  height              : 394px;
+  width               : 511px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-earndevices .bp2-ipadpromessages {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 511px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 288px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-rentgreenbg {
+  background-color    : rgba(162, 217, 53, 1.0);
+  top                 : 1024px;
+  height              : 1024px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-sectiontext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 588px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-sectiontext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1709px;
+  align-items         : center;
+  height              : 280px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-description1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 588px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-description1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 80px;
+  align-items         : center;
+  height              : 200px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-description1 .bp2-description2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 590px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-header1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 478px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-header1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 60px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-header1 .bp2-header2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 30.0px;
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-header1 .bp2-header2 .bp2-span1 {
+  
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-header1 .bp2-header2 .bp2-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-header1 .bp2-header2 .bp2-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp2-tabletv1 .bp2-sectiontext .bp2-header1 .bp2-header2 .bp2-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp2-tabletv1 .bp2-renttitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 191px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-renttitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1072px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-renttitle .bp2-rent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp2-tabletv1 .bp2-rentdevices {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 588px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-rentdevices-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1211px;
+  align-items         : center;
+  height              : 453px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-rentdevices .bp2-lendittcalendarmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 438px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-rentdevices .bp2-lendittbookedmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 438px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 376px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-rentdevices .bp2-lendittlistingsmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 438px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 188px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-headersymbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : calc(99.87% + 2px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-headersymbol .bp2-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 769px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-headersymbol .bp2-headerbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : calc(100.00% + 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-headersymbol .bp2-signup {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25px;
+  top                 : 20px;
+  height              : 20px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-headersymbol .bp2-signup .bp2-signup1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : 0.6px;
+  line-height         : 18.0px;
+}
+.bp2-tabletv1 .bp2-headersymbol .bp2-lendittlogowhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 28px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 711px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 100px;
+  align-items         : center;
+  height              : 824px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-header1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 399px;
+  margin-right        : -1px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 1px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection .bp2-header1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 70px;
+  align-items         : center;
+  height              : 30px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-header1 .bp2-red {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 399px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection .bp2-header1 .bp2-red .bp2-rentearndiscover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 403px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 4.0px;
+  line-height         : 30.0px;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-lendittlogogreen {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 170px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection .bp2-lendittlogogreen-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 52px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introtext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 508px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introtext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 566px;
+  align-items         : center;
+  height              : 160px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introtext .bp2-lendittisapeerto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 510px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introtext .bp2-lendittisapeerto .bp2-span1 {
+  
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introtext .bp2-lendittisapeerto .bp2-span2 {
+  letter-spacing      : 2.67px;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introtext .bp2-lendittisapeerto .bp2-span3 {
+  letter-spacing      : 0.96px;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-signupbutton {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 257px;
+  margin-right        : -1px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 1px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection .bp2-signupbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 756px;
+  align-items         : center;
+  height              : 68px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-signupbutton .bp2-rectangle {
+  background-color    : rgba(163, 218, 53, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection .bp2-signupbutton .bp2-signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 29.0px;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introdevices {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 711px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introdevices-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 135px;
+  align-items         : center;
+  height              : 436px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introdevices .bp2-ipadproresults {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 394px;
+  width               : 303px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introdevices .bp2-macbookhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 423px;
+  width               : 547px;
+  position            : absolute;
+  margin              : 0;
+  left                : 164px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-tabletv1 .bp2-introsection .bp2-introdevices .bp2-lendittlistingsmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 179px;
+  height              : 200px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp3-xsmax {
+  width               : 100%;
+  min-width           : 414px;
+  height              : 100vh;
+  min-height          : 4440px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-xsmax .bp3-discoverbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 2665px;
+  height              : 860px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.bp3-xsmax .bp3-discovercontent {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 416px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-discovercontent-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2705px;
+  align-items         : center;
+  height              : 761px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-description {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-discovercontent .bp3-description-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 517px;
+  align-items         : center;
+  height              : 244px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-description .bp3-lookingtogocampin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 377px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.37px;
+  line-height         : 40.0px;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-header1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-discovercontent .bp3-header1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 447px;
+  align-items         : center;
+  height              : 60px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-header1 .bp3-disoverandexplore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 377px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.44px;
+  line-height         : 30.0px;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-header1 .bp3-disoverandexplore .bp3-span1 {
+  
+}
+.bp3-xsmax .bp3-discovercontent .bp3-header1 .bp3-disoverandexplore .bp3-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp3-xsmax .bp3-discovercontent .bp3-header1 .bp3-disoverandexplore .bp3-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.5px;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-header1 .bp3-disoverandexplore .bp3-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp3-xsmax .bp3-discovercontent .bp3-discovertitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 361px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-discovercontent .bp3-discovertitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-discovertitle .bp3-discover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-discoverdevices {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 416px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-discovercontent .bp3-discoverdevices-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 104px;
+  align-items         : center;
+  height              : 321px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-discovercontent .bp3-discoverdevices .bp3-macbookresults {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 321px;
+  width               : 416px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-discovercontent .bp3-discoverdevices .bp3-lendittmapmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : 149px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 326px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-earncontent {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 425px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-earncontent-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1845px;
+  align-items         : center;
+  height              : 747px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-earncontent .bp3-description {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 365px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-earncontent .bp3-description-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 547px;
+  align-items         : center;
+  height              : 200px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-earncontent .bp3-description .bp3-notonlycanyouear {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 365px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.37px;
+  line-height         : 40.0px;
+}
+.bp3-xsmax .bp3-earncontent .bp3-header1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 373px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-earncontent .bp3-header1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 477px;
+  align-items         : center;
+  height              : 60px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-earncontent .bp3-header1 .bp3-earnwithlendittby {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 373px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(153, 212, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.44px;
+  line-height         : 30.0px;
+}
+.bp3-xsmax .bp3-earncontent .bp3-header1 .bp3-earnwithlendittby .bp3-span1 {
+  
+}
+.bp3-xsmax .bp3-earncontent .bp3-header1 .bp3-earnwithlendittby .bp3-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp3-xsmax .bp3-earncontent .bp3-header1 .bp3-earnwithlendittby .bp3-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.5px;
+}
+.bp3-xsmax .bp3-earncontent .bp3-header1 .bp3-earnwithlendittby .bp3-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp3-xsmax .bp3-earncontent .bp3-earntitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 192px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-earncontent .bp3-earntitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-earncontent .bp3-earntitle .bp3-earn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp3-xsmax .bp3-earncontent .bp3-earndevices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : 318px;
+  width               : 425px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-earncontent .bp3-earndevices .bp3-ipadprobookings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 246px;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-earncontent .bp3-earndevices .bp3-ipadpromessages {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 318px;
+  width               : 246px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-rentbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 945px;
+  height              : 860px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.bp3-xsmax .bp3-rentcontent {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 373px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-rentcontent-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 985px;
+  align-items         : center;
+  height              : 761px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 373px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 451px;
+  align-items         : center;
+  height              : 310px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-description {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 373px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-description-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 70px;
+  align-items         : center;
+  height              : 240px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-description .bp3-description1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.37px;
+  line-height         : 40.0px;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-header1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 324px;
+  margin-right        : 0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-header1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 60px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-header1 .bp3-header2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 324px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.44px;
+  line-height         : 30.0px;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-header1 .bp3-header2 .bp3-span1 {
+  
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-header1 .bp3-header2 .bp3-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-header1 .bp3-header2 .bp3-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp3-xsmax .bp3-rentcontent .bp3-sectiontext .bp3-header1 .bp3-header2 .bp3-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.5px;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-renttitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 191px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-rentcontent .bp3-renttitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-renttitle .bp3-rent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 195px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-rentdevices {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 373px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-rentcontent .bp3-rentdevices-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 124px;
+  align-items         : center;
+  height              : 287px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-rentcontent .bp3-rentdevices .bp3-lendittcalendarmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 278px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-rentcontent .bp3-rentdevices .bp3-lendittbookedmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 278px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 238px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-rentcontent .bp3-rentdevices .bp3-lendittlistingsmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 278px;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-footersymbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4385px;
+  height              : 55px;
+  width               : 100.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-footersymbol .bp3-footerbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupcontent {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 359px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupcontent-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3640px;
+  align-items         : center;
+  height              : 665px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-comingsoontext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 359px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupcontent .bp3-comingsoontext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 605px;
+  align-items         : center;
+  height              : 60px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-comingsoontext .bp3-comingsoontothea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 359px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(153, 212, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.44px;
+  line-height         : 30.0px;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-launchtext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 342px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupcontent .bp3-launchtext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 183px;
+  align-items         : center;
+  height              : 189px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-launchtext .bp3-aswepreparetolau {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.41px;
+  line-height         : 27.0px;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-comingsoon {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 155px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.85;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-comingsoon-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 58px;
+  align-items         : center;
+  height              : 25px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-comingsoon .bp3-comingsoon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 155px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.37px;
+  line-height         : 25.0px;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-signupbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 257px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupcontent .bp3-signupbutton1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 442px;
+  align-items         : center;
+  height              : 68px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-signupbutton1 .bp3-rectangle {
+  background-color    : rgba(163, 218, 53, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupcontent .bp3-signupbutton1 .bp3-signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 29.0px;
+}
+.bp3-xsmax .bp3-signupcontent .bp3-lendittlogogreen1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 157px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupcontent .bp3-lendittlogogreen1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 48px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-iphoneheadersymbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-iphoneheadersymbol .bp3-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 414px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-iphoneheadersymbol .bp3-headerbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : calc(100.00% + 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-iphoneheadersymbol .bp3-signup {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 25px;
+  top                 : 52px;
+  height              : 20px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-iphoneheadersymbol .bp3-signup .bp3-signup1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : 0.6px;
+  line-height         : 18.0px;
+}
+.bp3-xsmax .bp3-iphoneheadersymbol .bp3-lendittlogowhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 28px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-header {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 355px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-header-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 177px;
+  align-items         : center;
+  height              : 27px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-header .bp3-red {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 355px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-header .bp3-red .bp3-rentearndiscover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 359px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 4.0px;
+  line-height         : 30.0px;
+}
+.bp3-xsmax .bp3-lendittlogogreen {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 152px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-lendittlogogreen-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 115px;
+  align-items         : center;
+  height              : 46px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-introtext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 373px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.bp3-xsmax .bp3-introtext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 521px;
+  align-items         : center;
+  height              : 200px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-introtext .bp3-lendittisapeerto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.bp3-xsmax .bp3-introtext .bp3-lendittisapeerto .bp3-span1 {
+  
+}
+.bp3-xsmax .bp3-introtext .bp3-lendittisapeerto .bp3-span2 {
+  letter-spacing      : 2.67px;
+}
+.bp3-xsmax .bp3-introtext .bp3-lendittisapeerto .bp3-span3 {
+  letter-spacing      : 0.96px;
+}
+.bp3-xsmax .bp3-signupbutton {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 257px;
+  margin-right        : -1px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 1px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 771px;
+  align-items         : center;
+  height              : 68px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-signupbutton .bp3-rectangle {
+  background-color    : rgba(163, 218, 53, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-signupbutton .bp3-signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 83px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 29.0px;
+}
+.bp3-xsmax .bp3-introdevices {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 395px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-introdevices-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 254px;
+  align-items         : center;
+  height              : 242px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-xsmax .bp3-introdevices .bp3-ipadproresults {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 218px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-introdevices .bp3-macbookhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 235px;
+  width               : 304px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp3-xsmax .bp3-introdevices .bp3-lendittlistingsmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : 112px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+  .bp3-xsmax {
+    display             : block;
+  }
+  .bp2-tabletv1 {
+    display             : none;
+  }
+  .bp1-desktophd {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .bp3-xsmax {
+    display             : none;
+  }
+  .bp2-tabletv1 {
+    display             : block;
+  }
+  .bp1-desktophd {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bp3-xsmax {
+    display             : none;
+  }
+  .bp2-tabletv1 {
+    display             : none;
+  }
+  .bp1-desktophd {
+    display             : block;
+  }
 }
-
-.Desktop-HD .Header_4 {
-  display: flex;
-  flex-direction: row;
-  padding: 27px 0px 18px 551px;
-  position: relative;
-  width: calc(100% - 4.440892098500626e-16px);
-  height: 65px;
-  margin: 0px 1px 0px -1px;
-  background: rgba(153,  212, 47, 1);
-  box-sizing: border-box;
-  opacity: 1;
-}
-
-.Desktop-HD .Lenditt_1-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: absolute;
-  left: 30px;
-  right: 1284px;
-  height: 60px;
-  top: calc(0% - 0px);
-  font-family: 'Sign Painter';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 42px;
-  line-height: 70px;
-  letter-spacing: -0.26px;
-  color: rgba(255,  255, 255, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .HOME-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: 11.24859393%;
-  height: 20px;
-  margin: auto 0px auto 0px;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 15px;
-  letter-spacing: 0.6px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .ABOUT-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: 11.24859393%;
-  height: 20px;
-  margin: auto 0px auto 20px;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 15px;
-  letter-spacing: 0.6px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .CONTACT-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: 11.36107987%;
-  height: 20px;
-  margin: auto 0px auto 20px;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 15px;
-  letter-spacing: 0.6px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .SIGN-UP_1-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: 11.24859393%;
-  height: 20px;
-  margin: auto 0px auto 313px;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 15px;
-  letter-spacing: 0.6px;
-  color: rgba(255,  255, 255, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .LOG-IN-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: 11.24859393%;
-  height: 20px;
-  margin: auto 25px auto 10px;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 15px;
-  letter-spacing: 0.6px;
-  color: rgba(255,  255, 255, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .LendittLogo {
-  position: relative;
-  width: calc(100% - 1038px);
-  height: 65px;
-  margin: 50px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Lenditt-logo-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  height: 65px;
-  top: 0%;
-  font-family: 'Sign Painter';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 70px;
-  line-height: 70px;
-  letter-spacing: -0.44px;
-  color: rgba(163,  218, 53, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .RED {
-  position: relative;
-  width: calc(100% - 795px);
-  height: 27px;
-  margin: 21.4px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .RENT-EARN-DISCOVER-inner {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 27px;
-  margin: 0px auto 0px auto;
-  opacity: 0.8015950520833334;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 24px;
-  letter-spacing: 4px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .NewGroup-1 {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: calc(100% - 198.9999999999991px);
-  height: 423px;
-  margin: 88.6px auto 0px auto;
-  background-color: transparent;
-}
-
-.Desktop-HD .Devices {
-  position: relative;
-  width: 70.10475423%;
-  height: 423px;
-  margin: auto 0px auto 0px;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .LendittIpadProMock3 {
-  display: block;
-  box-shadow: -8px 10px 10px rgba(0,  0, 0, 0.5);
-  position: relative;
-  width: calc(100% - 554px);
-  height: 397px;
-  margin: 0px 554px 0px 0px;
-}
-
-.Desktop-HD .LendittMacBookAirMockupFinal {
-  display: block;
-  box-shadow: -6px 10px 7px rgba(0,  0, 0, 0.5);
-  position: relative;
-  width: calc(100% - 161px);
-  height: 380px;
-  margin: -360px 0px 0px 161px;
-}
-
-.Desktop-HD .LendittListingsMock_1 {
-  display: block;
-  box-shadow: -4px 8px 9px rgba(0,  0, 0, 0.5);
-  position: relative;
-  width: calc(100% - 753px);
-  height: 242px;
-  margin: -236px 567px 0px 186px;
-}
-
-.Desktop-HD .IntroText {
-  position: relative;
-  width: 27.80016116%;
-  height: 280px;
-  margin: 69px 0px 74px 26px;
-  display: block;
-  background-color: transparent;
-  opacity: 0.9044828869047619;
-}
-
-.Desktop-HD .Lenditt-is-a-peerto-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 280px;
-  margin: 0px auto 0px auto;
-  font-family: 'Sign Painter';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 30px;
-  line-height: 40px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .Lenditt-is-a-peerto-2 {
-  font-family: Athelas;
-  font-weight: 700;
-  font-size: 40px;
-  letter-spacing: 4.44px;
-}
-
-.Desktop-HD .Lenditt-is-a-peerto-3 {
-  font-family: Athelas;
-  font-weight: 700;
-  font-size: 25px;
-  letter-spacing: 1px;
-}
-
-.Desktop-HD .RentSection {
-  padding: 60px 108px 0px 100px;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 837px;
-  margin: 97px 0px 0px 0px;
-  display: block;
-  background: rgba(163,  218, 53, 1);
-  box-sizing: border-box;
-  opacity: 1;
-}
-
-.Desktop-HD .RentTitle {
-  position: relative;
-  width: calc(100% - 1077px);
-  height: 54px;
-  margin: 0px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .RENT-inner {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 54px;
-  margin: 0px auto 0px auto;
-  font-family: 'Sign Painter';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 60px;
-  letter-spacing: 3.75px;
-  color: rgba(255,  255, 255, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .NewGroup-1_1 {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 542px;
-  margin: 100px auto 81px auto;
-  background-color: transparent;
-}
-
-.Desktop-HD .IphoneMocksRent {
-  position: relative;
-  width: 54.62662338%;
-  height: 529px;
-  margin: 0px 0px 13px 0px;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .LendittBookedMock {
-  display: block;
-  box-shadow: -6px 10px 8px rgba(0,  0, 0, 0.5);
-  position: relative;
-  width: calc(100% - 428px);
-  height: 506px;
-  margin: 0px 0px 0px 428px;
-}
-
-.Desktop-HD .LendittCalendarMock {
-  display: block;
-  box-shadow: -6px 10px 8px rgba(0,  0, 0, 0.5);
-  position: relative;
-  width: calc(100% - 428px);
-  height: 506px;
-  margin: -505px 428px 0px 0px;
-}
-
-.Desktop-HD .LendittListingsMock {
-  display: block;
-  box-shadow: -6px 10px 8px rgba(0,  0, 0, 0.5);
-  position: relative;
-  width: calc(100% - 428px);
-  height: 506px;
-  margin: -484px auto 0px auto;
-}
-
-.Desktop-HD .NewGroup-1_2 {
-  position: relative;
-  width: 35.79545455%;
-  height: 467px;
-  margin: 75px 0px 0px 118px;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Header {
-  position: relative;
-  width: calc(100% - 58px);
-  height: 60px;
-  margin: 0px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Header_1-inner {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 60px;
-  margin: 0px auto 0px auto;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 30px;
-  line-height: 30px;
-  letter-spacing: 0.56px;
-  color: rgba(255,  255, 255, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .Header_1-2 {
-  color: rgba(0,  0, 0, 1);
-}
-
-.Desktop-HD .Header_1-4 {
-  font-family: 'Sign Painter';
-  font-weight: 400;
-  font-size: 34px;
-  letter-spacing: 0.63px;
-  color: rgba(0,  0, 0, 1);
-}
-
-.Desktop-HD .Header_1-5 {
-  font-size: 34px;
-  letter-spacing: 0.63px;
-  color: rgba(0,  0, 0, 1);
-}
-
-.Desktop-HD .Description {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 379px;
-  margin: 28px auto 0px auto;
-  display: block;
-  background-color: transparent;
-  opacity: 0.7954566592261905;
-}
-
-.Desktop-HD .Description_1-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 379px;
-  margin: 0px auto 0px auto;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: 0.52px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .EarnTitle {
-  position: relative;
-  width: calc(100% - 1279px);
-  height: 54px;
-  margin: 60px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .EARN-inner {
-  position: relative;
-  width: calc(100% - -1.1368683772161603e-13px);
-  height: 54px;
-  margin: 0px 0px 0px 0px;
-  font-family: 'Sign Painter';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 60px;
-  letter-spacing: 3.75px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .NewGroup-2 {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: calc(100% - 198.9999999999991px);
-  height: 495px;
-  margin: 110px auto 0px auto;
-  background-color: transparent;
-}
-
-.Desktop-HD .Devices_1 {
-  padding: 83.6px 0.2px 0px 0px;
-  position: relative;
-  width: 58.82352941%;
-  height: 495px;
-  margin: auto 0px auto 0px;
-  display: block;
-  background-color: transparent;
-  box-sizing: border-box;
-}
-
-.Desktop-HD .LendittIpadProMock {
-  display: block;
-  box-shadow: -6px 9px 10px rgba(0,  0, 0, 0.5);
-  position: relative;
-  width: calc(100% - 234.69826676714393px);
-  height: 393.8px;
-  margin: 0px 234.7px 0px 0px;
-}
-
-.Desktop-HD .Group {
-  display: flex;
-  flex-direction: column;
-  padding: 8.7px 0px 0px 0px;
-  position: relative;
-  width: calc(100% - 336.1283318623123px);
-  height: 495px;
-  margin: -477.4px 0px 0px 336.1px;
-  background-color: transparent;
-  box-shadow: -6px 9px 10px rgba(0,  0, 0, 0.5);
-  box-sizing: border-box;
-}
-
-.Desktop-HD .Rectangle {
-  position: relative;
-  width: calc(100% - 40.516975073846865px);
-  height: 477px;
-  margin: 0px 11.9px 0px 28.6px;
-  display: block;
-  background: rgba(255,  255, 255, 1);
-  border-radius: 18px;
-}
-
-.Desktop-HD .LendittIpadProMock2 {
-  display: block;
-  position: relative;
-  width: calc(100% - 0.014871093086583187px);
-  height: 495px;
-  margin: -485.6px auto 0px auto;
-}
-
-.Desktop-HD .NewGroup-1_3 {
-  position: relative;
-  width: 31.02336825%;
-  height: 378.7px;
-  margin: auto 0px auto 126px;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Header_2 {
-  position: relative;
-  width: calc(100% - 16px);
-  height: 66px;
-  margin: 0px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Earn-with-Lenditt-by-inner {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 66px;
-  margin: 0px auto 0px auto;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 30px;
-  letter-spacing: 0.56px;
-  color: rgba(153,  212, 47, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .Description_2 {
-  padding: 0px 0px 0px 1.4px;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 247px;
-  margin: 65.7px auto 0px auto;
-  display: block;
-  background-color: transparent;
-  box-sizing: border-box;
-}
-
-.Desktop-HD .Not-only-can-you-ear-inner {
-  position: relative;
-  width: calc(100% - -1.4px);
-  height: 247px;
-  margin: 0px -1.4px 0px 0px;
-  opacity: 0.6988699776785714;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: 0.52px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .DiscoverSection {
-  padding: 60px 100px 0px 100px;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 837px;
-  margin: 118px 0px 0px 0px;
-  display: block;
-  background: rgba(163,  218, 53, 1);
-  box-sizing: border-box;
-}
-
-.Desktop-HD .DiscoverTitle {
-  position: relative;
-  width: calc(100% - 937px);
-  height: 54px;
-  margin: 0px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .NewGroup-1_4 {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 433px;
-  margin: 144px auto 146px auto;
-  background-color: transparent;
-}
-
-.Desktop-HD .Devices_2 {
-  position: relative;
-  width: 58.87096774%;
-  height: 433px;
-  margin: 0px 0px 0px 0px;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .LendittMacbookListingsMockup {
-  display: block;
-  position: relative;
-  width: calc(100% - 6.385008004521069px);
-  height: 420.3px;
-  margin: 0px 6.4px 0px 0px;
-}
-
-.Desktop-HD .LendittMapMock {
-  display: block;
-  box-shadow: -4px 6px 7px rgba(0,  0, 0, 0.5);
-  position: relative;
-  width: calc(100% - 579.779991838527px);
-  height: 309.1px;
-  margin: -296.8px 0px 0.4px 579.8px;
-}
-
-.Desktop-HD .DiscoverText {
-  padding: 0.8px 0px 0px 0px;
-  position: relative;
-  width: 33.46774194%;
-  height: 415px;
-  margin: 0px 0px 18px 95px;
-  display: block;
-  background-color: transparent;
-  box-sizing: border-box;
-}
-
-.Desktop-HD .Header_3 {
-  position: relative;
-  width: calc(100% - 93px);
-  height: 68px;
-  margin: 0px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Disover-and-explore-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 68px;
-  margin: 0px auto 0px auto;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 30px;
-  letter-spacing: 0.56px;
-  color: rgba(255,  255, 255, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .Disover-and-explore-2 {
-  font-weight: 400;
-  color: rgba(0,  0, 0, 1);
-}
-
-.Desktop-HD .Description_3 {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 326px;
-  margin: 20px auto 0.2px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Looking-to-go-campin-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  width: calc(100% - 0px);
-  height: 326px;
-  margin: 0px auto 0px auto;
-  opacity: 0.6988699776785714;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: 0.52px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .SignUpSection {
-  position: relative;
-  width: calc(100% - 185px);
-  height: 618px;
-  margin: 60px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .SignUpTitle {
-  position: relative;
-  width: calc(100% - 910px);
-  height: 39px;
-  margin: 0px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .SIGN-UP-inner {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 39px;
-  margin: 0px auto 0px auto;
-  opacity: 0.8992280505952381;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 35px;
-  letter-spacing: 2.19px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .LendittComingSoon {
-  padding: 75px 68px 0px 67px;
-  position: relative;
-  width: calc(100% - 970px);
-  height: 103px;
-  margin: 65px auto 0px auto;
-  display: block;
-  background-color: transparent;
-  box-sizing: border-box;
-}
-
-.Desktop-HD .Lenditt-inner {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  height: 75px;
-  top: calc(0% - 0px);
-  font-family: 'Sign Painter';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 80px;
-  line-height: 70px;
-  letter-spacing: -0.5px;
-  color: rgba(163,  218, 53, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .Coming-soon-inner {
-  position: relative;
-  width: fit-content;
-  width: -moz-fit-content;
-  height: 28px;
-  margin: 0px auto 0px auto;
-  opacity: 0.7029389880952381;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 25px;
-  letter-spacing: 0.46px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre;
-}
-
-.Desktop-HD .LaunchText {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 56px;
-  margin: 70px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .As-we-prepare-to-lau-inner {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 56px;
-  margin: 0px auto 0px auto;
-  opacity: 0.69887;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 25px;
-  letter-spacing: 0.46px;
-  color: rgba(0,  0, 0, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .SignUpButton {
-  padding: 21px 103px 0px 103px;
-  position: relative;
-  width: calc(100% - 971px);
-  height: 70px;
-  margin: 80px auto 0px auto;
-  display: block;
-  background: rgba(163,  218, 53, 1);
-  box-sizing: border-box;
-  border-radius: 35px;
-}
-
-.Desktop-HD .Sign-up-inner {
-  position: relative;
-  width: calc(100% - 0px);
-  height: 26px;
-  margin: 0px auto 23px auto;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 23px;
-  letter-spacing: 0.43px;
-  color: rgba(255,  255, 255, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .ComingSoonText {
-  position: relative;
-  width: calc(100% - 378px);
-  height: 45px;
-  margin: 90px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Coming-soon-to-the-a-inner {
-  position: relative;
-  width: fit-content;
-  width: -moz-fit-content;
-  height: 45px;
-  margin: 0px auto 0px auto;
-  font-family: Athelas;
-  font-style: italic;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 40px;
-  letter-spacing: 0.74px;
-  color: rgba(153,  212, 47, 1);
-  text-align: center;
-  white-space: pre;
-}
-
-.Desktop-HD .NewGroup-3 {
-  padding: 29px 239px 0px 241px;
-  position: relative;
-  width: calc(100% - 4.440892098500626e-16px);
-  margin: 94px 1px 0px -1px;
-  display: block;
-  background: rgba(153,  212, 47, 1);
-  box-sizing: border-box;
-}
-
-.Desktop-HD .Footer {
-  position: relative;
-  width: calc(100% - 0px);
-  margin: 0px auto 0px auto;
-  display: block;
-  background-color: transparent;
-}
-
-.Desktop-HD .Content {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: calc(100% - 0px);
-  margin: 0px auto 0px auto;
-  background-color: transparent;
-}
-
-.Desktop-HD .k-Lenditt-inner {
-  position: relative;
-  width: 12.5%;
-  height: 36px;
-  margin: auto 0px auto 0px;
-  opacity: 0.6047479538690477;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 16px;
-  line-height: 36px;
-  letter-spacing: 0.57px;
-  color: rgba(60,  60, 60, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
-.Desktop-HD .help-inner {
-  position: relative;
-  width: 12.5%;
-  margin: auto 0px auto 0px;
-  opacity: 0.6047479538690477;
-  font-family: Athelas;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-size: 16px;
-  line-height: 36px;
-  letter-spacing: 0.57px;
-  color: rgba(60,  60, 60, 1);
-  text-align: center;
-  white-space: pre-wrap;
-}
-
