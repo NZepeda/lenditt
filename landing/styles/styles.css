@@ -1449,1380 +1449,6 @@ div {
       opacity: 1;
     }
 }
-.bp1-bigassmonitor {
-  width               : 100%;
-  min-width           : 1920px;
-  height              : 100vh;
-  min-height          : 6573px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp1-bigassmonitor .bp1-footersymbol {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6533px;
-  height              : 40px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-footersymbol .bp1-footerbg {
-  background-color    : rgba(153, 212, 47, 1.0);
-  top                 : 0px;
-  height              : 40px;
-  width               : 100%;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-signupsection {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1182px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-signupsection-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 5670px;
-  align-items         : center;
-  height              : 763px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoontext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 718px;
-  height              : 45px;
-  width               : 1182px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoontext .bp1-comingsoontothea {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 1182px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 36.0px;
-  color               : rgba(153, 212, 47, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.67px;
-  line-height         : 45.0px;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-launchtext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 267px;
-  height              : 90px;
-  width               : 1140px;
-  position            : absolute;
-  margin              : 0;
-  left                : 21px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-launchtext .bp1-signupnowtobeno {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 1140px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.7;
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.44px;
-  line-height         : 30.0px;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoon {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 227px;
-  margin-right        : -0px;
-  height              : 100%;
-  pointer-events      : auto;
-  margin-left         : 0px;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.85;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoon-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 100px;
-  align-items         : center;
-  height              : 37px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoon .bp1-comingsoon1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 228px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.7;
-  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.56px;
-  line-height         : 37.0px;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-signupbutton {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 343px;
-  margin-right        : -0px;
-  height              : 100%;
-  pointer-events      : auto;
-  margin-left         : 0px;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-signupbutton-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 510px;
-  align-items         : center;
-  height              : 68px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-signupbutton .bp1-rectangle {
-  background-color    : rgba(163, 218, 53, 1.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 343px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 34px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-signupbutton .bp1-signup {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 18px;
-  height              : auto;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 114px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(254, 255, 254, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.43px;
-  line-height         : 29.0px;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-lendittlogogreen {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 260px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-lendittlogogreen-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
-  height              : 80px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-group5 {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 599px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-group5-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 406px;
-  align-items         : center;
-  height              : 55px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-group5 .bp1-rectangle {
-  background-color    : rgba(243, 243, 243, 1.0);
-  top                 : 0px;
-  height              : 55px;
-  box-sizing          : border-box;
-  width               : 599px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 10px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(150, 150, 150, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.5;
-}
-.bp1-bigassmonitor .bp1-signupsection .bp1-group5 .bp1-emailaddress {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : auto;
-  width               : 244px;
-  position            : absolute;
-  margin              : 0;
-  left                : 177px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.1;
-  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 3.67px;
-  line-height         : 27.0px;
-}
-.bp1-bigassmonitor .bp1-discovergreenbg {
-  background-color    : rgba(246, 246, 246, 1.0);
-  top                 : 4450px;
-  height              : 1100px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-discovergreenbg1 {
-  background-color    : rgba(246, 246, 246, 1.0);
-  top                 : 2250px;
-  height              : 1100px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1365px;
-  margin-right        : -0px;
-  height              : 100%;
-  pointer-events      : auto;
-  margin-left         : 0px;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 2400px;
-  align-items         : center;
-  height              : 750px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentdevices {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 189px;
-  height              : 561px;
-  width               : 728px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentdevices .bp1-lendittcalendarmock {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 542px;
-  width               : 263px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentdevices .bp1-lendittbookedmock {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 542px;
-  width               : 263px;
-  position            : absolute;
-  margin              : 0;
-  left                : 465px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentdevices .bp1-lendittlistingsmock {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 19px;
-  height              : 542px;
-  width               : 263px;
-  position            : absolute;
-  margin              : 0;
-  left                : 233px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 289px;
-  height              : 360px;
-  width               : 439px;
-  position            : absolute;
-  margin              : 0;
-  left                : 926px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-description {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 80px;
-  height              : 280px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 5px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.8;
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-description .bp1-description1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 432px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 28.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.52px;
-  line-height         : 40.0px;
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 60px;
-  width               : 439px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(163, 218, 53, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.56px;
-  line-height         : 30.0px;
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 .bp1-span1 {
-  
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 .bp1-span2 {
-  color               : rgba(0, 0, 0, 1.0);
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 .bp1-span3 {
-  color               : rgba(0, 0, 0, 1.0);
-}
-.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 .bp1-span4 {
-  color               : rgba(0, 0, 0, 1.0);
-  letter-spacing      : 0.63px;
-}
-.bp1-bigassmonitor .bp1-group .bp1-renttitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 74px;
-  width               : 198px;
-  position            : absolute;
-  margin              : 0;
-  left                : 583px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group .bp1-renttitle .bp1-rent {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 202px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 60.0px;
-  color               : rgba(163, 218, 53, 1.0);
-  text-align          : center;
-  letter-spacing      : 3.75px;
-  line-height         : 74.0px;
-}
-.bp1-bigassmonitor .bp1-group3 {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1407px;
-  margin-right        : -0px;
-  height              : 100%;
-  pointer-events      : auto;
-  margin-left         : 0px;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group3-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 4600px;
-  align-items         : center;
-  height              : 702px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-description {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 355px;
-  height              : 280px;
-  width               : 415px;
-  position            : absolute;
-  margin              : 0;
-  left                : 992px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-description .bp1-planningacampingt {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 417px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.7;
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 28.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.52px;
-  line-height         : 40.0px;
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-header {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 255px;
-  height              : 80px;
-  width               : 353px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1023px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 355px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(163, 218, 53, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.56px;
-  line-height         : 37.0px;
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore .bp1-span1 {
-  
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore .bp1-span2 {
-  color               : rgba(0, 0, 0, 1.0);
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore .bp1-span3 {
-  color               : rgba(0, 0, 0, 1.0);
-  letter-spacing      : 0.63px;
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore .bp1-span4 {
-  color               : rgba(0, 0, 0, 1.0);
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-discovertitle {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 481px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-discovertitle-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
-  height              : 74px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-discovertitle .bp1-discover {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 485px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 60.0px;
-  color               : rgba(163, 218, 53, 1.0);
-  text-align          : center;
-  letter-spacing      : 3.75px;
-  line-height         : 74.0px;
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-discoverdevices {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 189px;
-  height              : 513px;
-  width               : 865px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-discoverdevices .bp1-macbookresults {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 493px;
-  width               : 862px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group3 .bp1-discoverdevices .bp1-lendittmapmock {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 213px;
-  height              : 300px;
-  width               : 146px;
-  position            : absolute;
-  margin              : 0;
-  left                : 719px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group2 {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1398px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group2-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 3500px;
-  align-items         : center;
-  height              : 745px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-description {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 401px;
-  height              : 240px;
-  width               : 411px;
-  position            : absolute;
-  margin              : 0;
-  left                : 987px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-description .bp1-notonlycanyouear {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 411px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.7;
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 28.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.52px;
-  line-height         : 40.0px;
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-header {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 307px;
-  height              : 74px;
-  width               : 403px;
-  position            : absolute;
-  margin              : 0;
-  left                : 991px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 404px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
-  font-size           : 30.0px;
-  color               : rgba(153, 212, 47, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.56px;
-  line-height         : 37.0px;
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby .bp1-span1 {
-  
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby .bp1-span2 {
-  color               : rgba(0, 0, 0, 1.0);
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby .bp1-span3 {
-  color               : rgba(0, 0, 0, 1.0);
-  letter-spacing      : 0.63px;
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby .bp1-span4 {
-  color               : rgba(0, 0, 0, 1.0);
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-earntitle {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 256px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-earntitle-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
-  height              : 74px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-earntitle .bp1-earn {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 260px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 60.0px;
-  color               : rgba(163, 218, 53, 1.0);
-  text-align          : center;
-  letter-spacing      : 3.75px;
-  line-height         : 74.0px;
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-earndevices {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 203px;
-  height              : 542px;
-  width               : 837px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-earndevices .bp1-ipadprobookings {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 87px;
-  height              : 430px;
-  width               : 542px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-group2 .bp1-earndevices .bp1-ipadpromessages {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 542px;
-  width               : 431px;
-  position            : absolute;
-  margin              : 0;
-  left                : 406px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introsection {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1344px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introsection-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 1275px;
-  align-items         : center;
-  height              : 839px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-introtext {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1344px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.9;
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-introtext-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 631px;
-  align-items         : center;
-  height              : 80px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-introtext .bp1-lendittisapeerto {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 1346px;
-  position            : absolute;
-  margin              : 0;
-  left                : -1px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 36.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 40.0px;
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span1 {
-  
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span2 {
-  letter-spacing      : 4.0px;
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span3 {
-  letter-spacing      : 1.44px;
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-group4 {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 1175px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-group4-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
-  height              : 572px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-group4 .bp1-ipadproresults {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 541px;
-  width               : 430px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-group4 .bp1-macbookhome {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 62px;
-  height              : 492px;
-  width               : 858px;
-  position            : absolute;
-  margin              : 0;
-  left                : 317px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-group4 .bp1-lendittlistingsmock {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 236px;
-  height              : 336px;
-  width               : 162px;
-  position            : absolute;
-  margin              : 0;
-  left                : 268px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-signupbutton {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 343px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-signupbutton-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 771px;
-  align-items         : center;
-  height              : 68px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-signupbutton .bp1-rectangle {
-  background-color    : rgba(163, 218, 53, 1.0);
-  top                 : 0px;
-  height              : 68px;
-  width               : 343px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 34px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introsection .bp1-signupbutton .bp1-signup {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : auto;
-  width               : 111px;
-  position            : absolute;
-  margin              : 0;
-  left                : 116px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.43px;
-  line-height         : 29.0px;
-}
-.bp1-bigassmonitor .bp1-introbg {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 50px;
-  height              : 1100px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introheader {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 542px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-introheader-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 110px;
-  align-items         : center;
-  height              : 143px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 100%;
-  position            : fixed;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 1920px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-headerbg {
-  background-color    : rgba(153, 212, 47, 1.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : calc(100.00% + 1px);
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 152px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 9px;
-  align-items         : center;
-  height              : 32px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-twitter {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-twitter .bp1-combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-instagram {
-  background-color    : rgba(255,255,255,0.0);
-  width               : 32px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-instagram-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
-  height              : 32px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-instagram .bp1-combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-instagram .bp1-combinedshape1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-facebook {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 120px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-facebook .bp1-combinedshape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 32px;
-  width               : 32px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-signup {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 24px;
-  top                 : 17px;
-  height              : 20px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-signup .bp1-signup1 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0px;
-  height              : auto;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Signika", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 15.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : right;
-  letter-spacing      : 0.6px;
-  line-height         : 18.0px;
-}
-.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-lendittlogowhite {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 28px;
-  width               : 92px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
 .bp3-tabletv1 {
   width               : 100%;
   min-width           : 768px;
@@ -4315,11 +2941,1385 @@ div {
       opacity: 1;
     }
 }
+.bp1-bigassmonitor {
+  width               : 100%;
+  min-width           : 1920px;
+  height              : 100vh;
+  min-height          : 6573px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-bigassmonitor .bp1-footersymbol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6533px;
+  height              : 40px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-footersymbol .bp1-footerbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-signupsection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1182px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-signupsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 5670px;
+  align-items         : center;
+  height              : 763px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoontext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 718px;
+  height              : 45px;
+  width               : 1182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoontext .bp1-comingsoontothea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1182px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(153, 212, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.67px;
+  line-height         : 45.0px;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-launchtext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 267px;
+  height              : 90px;
+  width               : 1140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-launchtext .bp1-signupnowtobeno {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1140px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.44px;
+  line-height         : 30.0px;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoon {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 227px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.85;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoon-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 100px;
+  align-items         : center;
+  height              : 37px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-comingsoon .bp1-comingsoon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 37.0px;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-signupbutton {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 343px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-signupbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 510px;
+  align-items         : center;
+  height              : 68px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-signupbutton .bp1-rectangle {
+  background-color    : rgba(163, 218, 53, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 343px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-signupbutton .bp1-signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(254, 255, 254, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 29.0px;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-lendittlogogreen {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 260px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-lendittlogogreen-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 80px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 599px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-group5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 406px;
+  align-items         : center;
+  height              : 55px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-group5 .bp1-rectangle {
+  background-color    : rgba(243, 243, 243, 1.0);
+  top                 : 0px;
+  height              : 55px;
+  box-sizing          : border-box;
+  width               : 599px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.bp1-bigassmonitor .bp1-signupsection .bp1-group5 .bp1-emailaddress {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 244px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.1;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.67px;
+  line-height         : 27.0px;
+}
+.bp1-bigassmonitor .bp1-discovergreenbg {
+  background-color    : rgba(246, 246, 246, 1.0);
+  top                 : 4450px;
+  height              : 1100px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-discovergreenbg1 {
+  background-color    : rgba(246, 246, 246, 1.0);
+  top                 : 2250px;
+  height              : 1100px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1365px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2400px;
+  align-items         : center;
+  height              : 750px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentdevices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 189px;
+  height              : 561px;
+  width               : 728px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentdevices .bp1-lendittcalendarmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 542px;
+  width               : 263px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentdevices .bp1-lendittbookedmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 542px;
+  width               : 263px;
+  position            : absolute;
+  margin              : 0;
+  left                : 465px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentdevices .bp1-lendittlistingsmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 542px;
+  width               : 263px;
+  position            : absolute;
+  margin              : 0;
+  left                : 233px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 289px;
+  height              : 360px;
+  width               : 439px;
+  position            : absolute;
+  margin              : 0;
+  left                : 926px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 80px;
+  height              : 280px;
+  width               : 430px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-description .bp1-description1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 432px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 439px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(163, 218, 53, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 30.0px;
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 .bp1-span1 {
+  
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 .bp1-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 .bp1-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-bigassmonitor .bp1-group .bp1-rentext .bp1-header .bp1-header1 .bp1-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp1-bigassmonitor .bp1-group .bp1-renttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 74px;
+  width               : 198px;
+  position            : absolute;
+  margin              : 0;
+  left                : 583px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group .bp1-renttitle .bp1-rent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(163, 218, 53, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp1-bigassmonitor .bp1-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1407px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4600px;
+  align-items         : center;
+  height              : 702px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 355px;
+  height              : 280px;
+  width               : 415px;
+  position            : absolute;
+  margin              : 0;
+  left                : 992px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-description .bp1-planningacampingt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 417px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 255px;
+  height              : 80px;
+  width               : 353px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1023px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 355px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(163, 218, 53, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 37.0px;
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore .bp1-span1 {
+  
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore .bp1-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore .bp1-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-header .bp1-disoverandexplore .bp1-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-discovertitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 481px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-discovertitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-discovertitle .bp1-discover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 485px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(163, 218, 53, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-discoverdevices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 189px;
+  height              : 513px;
+  width               : 865px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-discoverdevices .bp1-macbookresults {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 493px;
+  width               : 862px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group3 .bp1-discoverdevices .bp1-lendittmapmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 213px;
+  height              : 300px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 719px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1398px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3500px;
+  align-items         : center;
+  height              : 745px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 401px;
+  height              : 240px;
+  width               : 411px;
+  position            : absolute;
+  margin              : 0;
+  left                : 987px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-description .bp1-notonlycanyouear {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 411px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.52px;
+  line-height         : 40.0px;
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 307px;
+  height              : 74px;
+  width               : 403px;
+  position            : absolute;
+  margin              : 0;
+  left                : 991px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 404px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(153, 212, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.56px;
+  line-height         : 37.0px;
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby .bp1-span1 {
+  
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby .bp1-span2 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby .bp1-span3 {
+  color               : rgba(0, 0, 0, 1.0);
+  letter-spacing      : 0.63px;
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-header .bp1-earnwithlendittby .bp1-span4 {
+  color               : rgba(0, 0, 0, 1.0);
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-earntitle {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 256px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-earntitle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 74px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-earntitle .bp1-earn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(163, 218, 53, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.75px;
+  line-height         : 74.0px;
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-earndevices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 203px;
+  height              : 542px;
+  width               : 837px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-earndevices .bp1-ipadprobookings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 87px;
+  height              : 430px;
+  width               : 542px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-group2 .bp1-earndevices .bp1-ipadpromessages {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 542px;
+  width               : 431px;
+  position            : absolute;
+  margin              : 0;
+  left                : 406px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introsection {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1344px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1275px;
+  align-items         : center;
+  height              : 839px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-introtext {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1344px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-introtext-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 631px;
+  align-items         : center;
+  height              : 80px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-introtext .bp1-lendittisapeerto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1346px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span1 {
+  
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span2 {
+  letter-spacing      : 4.0px;
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-introtext .bp1-lendittisapeerto .bp1-span3 {
+  letter-spacing      : 1.44px;
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1175px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 572px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-group4 .bp1-ipadproresults {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 541px;
+  width               : 430px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-group4 .bp1-macbookhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : 492px;
+  width               : 858px;
+  position            : absolute;
+  margin              : 0;
+  left                : 317px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-group4 .bp1-lendittlistingsmock {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 236px;
+  height              : 336px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 268px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-signupbutton {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 343px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-signupbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 771px;
+  align-items         : center;
+  height              : 68px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-signupbutton .bp1-rectangle {
+  background-color    : rgba(163, 218, 53, 1.0);
+  top                 : 0px;
+  height              : 68px;
+  width               : 343px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introsection .bp1-signupbutton .bp1-signup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 23.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.43px;
+  line-height         : 29.0px;
+}
+.bp1-bigassmonitor .bp1-introbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 50px;
+  height              : 1100px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introheader {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 542px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introheader-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 110px;
+  align-items         : center;
+  height              : 143px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-headerbg {
+  background-color    : rgba(153, 212, 47, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : calc(100.00% + 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 152px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 9px;
+  align-items         : center;
+  height              : 32px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-twitter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-twitter .bp1-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-instagram {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 32px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-instagram-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 32px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-instagram .bp1-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-instagram .bp1-combinedshape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-facebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-socialicons .bp1-facebook .bp1-combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-signup {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 24px;
+  top                 : 17px;
+  height              : 20px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-signup .bp1-signup1 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Signika", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  letter-spacing      : 0.6px;
+  line-height         : 18.0px;
+}
+.bp1-bigassmonitor .bp1-bigassmonitorheader .bp1-lendittlogowhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 28px;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
 .bp4-xsmax {
   width               : 100%;
   min-width           : 414px;
   height              : 100vh;
-  min-height          : 5601px;
+  min-height          : 5561px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -4370,7 +4370,7 @@ div {
 .bp4-xsmax .bp4-group-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 4830px;
+  top                 : 4810px;
   align-items         : center;
   height              : 636px;
   width               : 100%;
@@ -5157,7 +5157,7 @@ div {
 }
 .bp4-xsmax .bp4-footersymbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 5546px;
+  top                 : 5506px;
   height              : 55px;
   width               : 100%;
   position            : absolute;
@@ -5250,7 +5250,7 @@ div {
 .bp4-xsmax .bp4-group6-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 1130px;
+  top                 : 1140px;
   align-items         : center;
   height              : 563px;
   width               : 100%;
