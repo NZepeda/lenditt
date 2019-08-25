@@ -908,7 +908,7 @@ div {
 .bp2-desktophd .bp2-group-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 1320px;
+  top                 : 1340px;
   align-items         : center;
   height              : 422px;
   width               : 100%;
@@ -1066,7 +1066,7 @@ div {
 .bp2-desktophd .bp2-introbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 50px;
-  height              : 1000px;
+  height              : 1024px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -2945,7 +2945,7 @@ div {
   width               : 100%;
   min-width           : 1920px;
   height              : 100vh;
-  min-height          : 6573px;
+  min-height          : 6714px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -2958,7 +2958,7 @@ div {
 }
 .bp1-bigassmonitor .bp1-footersymbol {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 6533px;
+  top                 : 6674px;
   height              : 40px;
   width               : 100%;
   position            : absolute;
@@ -2993,7 +2993,7 @@ div {
 .bp1-bigassmonitor .bp1-signupsection-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 5670px;
+  top                 : 5811px;
   align-items         : center;
   height              : 763px;
   width               : 100%;
@@ -3251,7 +3251,7 @@ div {
 }
 .bp1-bigassmonitor .bp1-discovergreenbg {
   background-color    : rgba(246, 246, 246, 1.0);
-  top                 : 4450px;
+  top                 : 4591px;
   height              : 1100px;
   width               : 100%;
   position            : absolute;
@@ -3263,7 +3263,7 @@ div {
 }
 .bp1-bigassmonitor .bp1-discovergreenbg1 {
   background-color    : rgba(246, 246, 246, 1.0);
-  top                 : 2250px;
+  top                 : 2391px;
   height              : 1100px;
   width               : 100%;
   position            : absolute;
@@ -3288,7 +3288,7 @@ div {
 .bp1-bigassmonitor .bp1-group-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 2400px;
+  top                 : 2541px;
   align-items         : center;
   height              : 750px;
   width               : 100%;
@@ -3480,7 +3480,7 @@ div {
 .bp1-bigassmonitor .bp1-group3-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 4600px;
+  top                 : 4741px;
   align-items         : center;
   height              : 702px;
   width               : 100%;
@@ -3656,7 +3656,7 @@ div {
 .bp1-bigassmonitor .bp1-group2-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 3500px;
+  top                 : 3641px;
   align-items         : center;
   height              : 745px;
   width               : 100%;
@@ -3832,7 +3832,7 @@ div {
 .bp1-bigassmonitor .bp1-introsection-layout-container {
   pointer-events      : none;
   flex-direction      : column;
-  top                 : 1275px;
+  top                 : 1316px;
   align-items         : center;
   height              : 839px;
   width               : 100%;
@@ -4008,7 +4008,7 @@ div {
 .bp1-bigassmonitor .bp1-introbg {
   background-color    : rgba(255,255,255,0.0);
   top                 : 50px;
-  height              : 1100px;
+  height              : 1050px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
@@ -4016,6 +4016,7 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+  object-fit          : cover;
 }
 .bp1-bigassmonitor .bp1-introheader {
   background-color    : rgba(255,255,255,0.0);
@@ -4033,6 +4034,81 @@ div {
   top                 : 110px;
   align-items         : center;
   height              : 143px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-introheader .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 542px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introheader .bp1-header-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 98px;
+  align-items         : center;
+  height              : 45px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-bigassmonitor .bp1-introheader .bp1-header .bp1-red {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 542px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introheader .bp1-header .bp1-red .bp1-rentearndiscover {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 548px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+  font-family         : "Signika-SemiBold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 6.0px;
+  line-height         : 45.0px;
+}
+.bp1-bigassmonitor .bp1-introheader .bp1-lendittlogogreen {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 238px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-bigassmonitor .bp1-introheader .bp1-lendittlogogreen-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 73px;
   width               : 100%;
   position            : absolute;
   margin              : 0;
